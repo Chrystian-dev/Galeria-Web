@@ -1,0 +1,278 @@
+*{
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin:0;
+}
+
+/* ===== LOGIN / CADASTRO ===== */
+.card{
+  background:#fff;
+  width:380px;
+  padding:30px;
+  border-radius:22px;
+  box-shadow:0 10px 30px rgba(0,0,0,.2);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:auto;
+  margin-top:100px;
+}
+
+.card input, .card button{
+  width:100%;
+  padding:14px;
+  margin:10px 0;
+  border-radius:14px;
+  border:2px solid #000;
+}
+
+.card button{
+  cursor:pointer;
+  font-weight:bold;
+}
+
+/* ===== GALERIA ===== */
+.titulo{
+  text-align:center;
+  margin:30px 0;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, 120px);
+  gap:20px;
+  justify-content:center;
+}
+
+.pasta{
+  height:100px;
+  border:3px solid #000;
+  border-radius:18px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-size:36px;
+  cursor:pointer;
+  background:#fff;
+}
+
+.pasta span{
+  font-size:12px;
+}
+
+/* ===== BOTÃO ===== */
+.add{
+  display:block;
+  margin:30px auto;
+  padding:14px;
+  width:200px;
+  border-radius:14px;
+  border:2px solid #000;
+  cursor:pointer;
+}
+
+/* ========================= */
+/* PASTA - ABA FLUTUANTE */
+/* ========================= */
+
+.lateral{
+  position: fixed;
+  top: 30px;
+  left: 30px;
+
+  width: 240px;
+  background:#fff;
+  border-radius:30px;
+  border:3px solid #000;
+  padding:25px;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:30px;
+
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+  z-index:1000;
+}
+
+.lateral h1{
+  text-align:center;
+}
+
+.btn{
+  width:140px;
+  height:70px;
+  font-size:28px;
+  border-radius:16px;
+  border:3px solid #000;
+  background:#b3d9ff;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+}
+
+/* Conteúdo agora ocupa tela inteira */
+.conteudo{
+  padding:40px;
+}
+
+/* Evita que as imagens fiquem atrás da aba */
+.grid-imagens{
+  margin-left:300px;
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
+  gap:30px;
+}
+
+.imagem{
+  background:#fff;
+  border-radius:20px;
+  border:3px solid #000;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:grab;
+}
+
+.imagem img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+
+.imagem.add{
+  font-size:80px;
+  font-weight:bold;
+}
+
+/* ===== MENU CONTEXTO ===== */
+
+.menu-contexto{
+  position: absolute;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  display: none;
+  flex-direction: column;
+  min-width: 150px;
+  z-index: 1000;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.menu-contexto div{
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-contexto div:hover{
+  background: #ffffff;
+}
+
+/* ========================= */
+/* PÁGINA ENTRAR NA GALERIA */
+/* ========================= */
+
+.pagina-entrada{
+  height:100vh;
+  background: url("https://i.pinimg.com/originals/ca/73/9c/ca739cd81d67178e17f93dc34b3239f5.gif") no-repeat center center/cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.overlay{
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.btn-galeria{
+  padding:20px 60px;
+  font-size:22px;
+  font-weight:bold;
+  letter-spacing:2px;
+  border:none;
+  border-radius:50px;
+  cursor:pointer;
+  background:linear-gradient(45deg, #4cafef, #6dd5ed);
+  color:white;
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+  transition:0.4s ease;
+}
+
+.btn-galeria:hover{
+  transform:scale(1.1);
+  box-shadow:0 15px 35px rgba(0,0,0,0.6);
+}
+
+/* ========================= */
+/* FUNDOS PERSONALIZADOS */
+/* ========================= */
+
+.bg-cadastro{
+  background: url("https://static.vecteezy.com/ti/fotos-gratis/p2/18043432-mulher-bonita-apreciando-o-cheiro-no-jardim-de-cereja-de-primavera-foto.jpg") no-repeat center center/cover;
+  min-height:100vh;
+}
+
+.bg-login{
+  background: url("https://s.zst.com.br/cms-assets/2021/02/melhor-c-mera-profissional-1.jpg") no-repeat center center/cover;
+  min-height:100vh;
+}
+
+.bg-galeria{
+  background: url("https://images.unsplash.com/photo-1500534314209-a25ddb2bd429") no-repeat center center/cover;
+  min-height:100vh;
+}
+
+.bg-pasta{
+  background: url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e") no-repeat center center/cover;
+  min-height:100vh;
+}
+
+/* ========================= */
+/* IMAGEM EM TELA CHEIA */
+/* ========================= */
+
+.overlay-imagem{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.92);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:9999;
+  animation:fadeIn 0.3s ease;
+}
+
+.overlay-imagem img{
+  max-width:90%;
+  max-height:90%;
+  border-radius:20px;
+  box-shadow:0 0 40px rgba(255,255,255,0.15);
+  cursor:zoom-out;
+  transition:0.3s;
+}
+
+.overlay-imagem img:hover{
+  transform:scale(1.02);
+}
+
+@keyframes fadeIn{
+  from{opacity:0;}
+  to{opacity:1;}
+}

@@ -1,0 +1,81 @@
+📸 Galeria Web com Sistema de Pastas
+
+
+
+
+
+
+
+
+
+
+
+
+🚀 Sobre o Projeto
+
+Este é um sistema completo de galeria de imagens com autenticação, desenvolvido utilizando HTML, CSS e JavaScript puro (Vanilla JS).
+
+O projeto simula o funcionamento de um aplicativo real de galeria, permitindo que usuários criem pastas, adicionem imagens e organizem seu conteúdo de forma visual e interativa.
+
+🖼 Demonstração
+🔐 Tela de Login
+<img src="https://via.placeholder.com/800x400.png?text=Login+Screen" width="100%">
+📁 Galeria de Pastas
+<img src="https://via.placeholder.com/800x400.png?text=Gallery+Folders" width="100%">
+🖼 Visualização em Tela Cheia
+<img src="https://via.placeholder.com/800x400.png?text=Fullscreen+Image" width="100%">
+
+💡 Você pode substituir as imagens acima por prints reais do seu projeto depois.
+
+✨ Funcionalidades
+🔐 Sistema de Usuário
+
+Cadastro
+
+Login
+
+Dados persistentes
+
+📁 Sistema de Pastas
+
+Criar novas pastas
+
+Organização por usuário
+
+🖼 Sistema de Imagens
+
+Upload de imagens
+
+Drag and Drop
+
+Exclusão
+
+Visualização em tela cheia
+
+Menu de contexto
+
+🎨 Interface
+
+Aba lateral flutuante
+
+Layout moderno
+
+Fundos personalizados
+
+Animações suaves
+
+Design responsivo básico
+
+🛠 Tecnologias Utilizadas
+
+HTML5 → Estrutura das páginas
+
+CSS3 → Layout, animações e design
+
+JavaScript (Vanilla JS) → Manipulação de DOM e lógica da aplicação
+
+LocalStorage → Banco de dados local no navegador
+
+🗄 Banco de Dados
+
+O projeto utiliza o LocalStorage do navegador como banco de dados.

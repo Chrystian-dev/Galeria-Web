@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-galeria">
+
+
+<h1 class="titulo">Galeria</h1>
+
+<div id="pastas" class="grid"></div>
+
+<button class="add" onclick="criarPasta()">＋ Nova Pasta</button>
+
+<div id="menuContexto" class="menu-contexto">
+  <div onclick="renomearPasta()">✏️ Renomear</div>
+  <div onclick="excluirPasta()">🗑️ Excluir</div>
+</div>
+
+
+<script src="script.js"></script>
+<script>
+  if(!localStorage.getItem("usuarioLogado")){
+    window.location.href = "login.html";
+  }
+  carregarPastas();
+</script>
+
+</body>
+</html>

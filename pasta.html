@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pasta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-pasta">
+
+  <!-- ===== ABA FLUTUANTE ===== -->
+  <aside class="lateral">
+    <h1 id="nomePasta"></h1>
+
+    <button class="btn" onclick="voltar()">🏠</button>
+    <div id="lixeira" class="btn">🗑</div>
+  </aside>
+
+  <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+  <main class="conteudo">
+    <div id="imagens" class="grid-imagens"></div>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    carregarImagens();
+  </script>
+
+</body>
+</html>
