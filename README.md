@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Este projeto é uma Galeria Web com sistema de autenticação e organização por pastas, desenvolvida utilizando apenas tecnologias front-end.
+Este projeto é uma Galeria Web com sistema de autenticação e organização por pastas, desenvolvida utilizando apenas tecnologias front-end..git
 
 ## 🔖 Layout
 
