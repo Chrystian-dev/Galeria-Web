@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"> Galeria Web </h1>
 
 <p align="center">
@@ -47,3 +48,6 @@ Esse projeto está sob a licença MIT.
 
 Feito com ♥ por Chrystian.V  [Gostou do resultado?
 Transforme a sua ideia em realidade. Contrate-me!](https://www.linkedin.com/in/chrystian-victor/)
+=======
+# Galeria-Web
+>>>>>>> 810744760f20be3b923b6ea943bca92d704b917d
