@@ -38,7 +38,7 @@ Este projeto é uma Galeria Web com sistema de autenticação e organização po
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](httpshttps://github.com/Chrystian-dev/Galeria-Web). Não é necessário ter conta no [github.com](https://github.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](httpshttps://github.com/Chrystian-dev/Galeria-Web)[OU DESSE LINK](https://chrystian-dev.github.io/Galeria-Web/index.html). Não é necessário ter conta no [github.com](https://github.com/) para acessá-lo.
 
 ## :memo: Licença
 
@@ -49,5 +49,3 @@ Esse projeto está sob a licença MIT.
 Feito com ♥ por Chrystian.V  [Gostou do resultado?
 Transforme a sua ideia em realidade. Contrate-me!](https://www.linkedin.com/in/chrystian-victor/)
 =======
-# Galeria-Web
->>>>>>> 810744760f20be3b923b6ea943bca92d704b917d
