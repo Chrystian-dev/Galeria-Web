@@ -1,7 +1,7 @@
-<h1 align="center"> Início de site responsivo </h1>
+<h1 align="center"> Galeria Web </h1>
 
 <p align="center">
-Este é um projeto prático realizado com o objetivo de aplicar e consolidar conhecimentos nas tecnologias HTML, CSS e JavaScript, resultando no desenvolvimento de uma interface web responsiva.
+Este é um projeto prático realizado com o objetivo de aplicar e consolidar conhecimentos nas tecnologias HTML, CSS e JavaScript.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ Este é um projeto prático realizado com o objetivo de aplicar e consolidar con
 <br>
 
 <p align="center">
-  <img alt="prepré visualização" src=".github/light.jpg" width="100%">
+  <img alt="prepré visualização" src="./assets/Design sem nome (3).png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,15 +28,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 - Git e Github
-- Figma
+- IA
+- Canva
 
 ## 💻 Projeto
 
-Este projeto demonstra o desenvolvimento inicial de um website totalmente responsivo. A interface inclui botões personalizados e oferece uma experiência de usuário dinâmica através da funcionalidade de alternância entre os modos noturno e diurno, implementada com HTML, CSS, JavaScript e Figma.
+Este projeto é uma Galeria Web com sistema de autenticação e organização por pastas, desenvolvida utilizando apenas tecnologias front-end.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://github.com/Chrystian-dev/projetoi). Não é necessário ter conta no [github.com](https://github.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](httpshttps://github.com/Chrystian-dev/Galeria-Web). Não é necessário ter conta no [github.com](https://github.com/) para acessá-lo.
 
 ## :memo: Licença
 
